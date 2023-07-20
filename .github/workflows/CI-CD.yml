@@ -26,6 +26,7 @@ jobs:
 
       - name: Build and Test
         run: |
+          npm install
           docker-compose up --build -d
           docker-compose run --rm node-service npm run test
           docker-compose down

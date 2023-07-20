@@ -1,0 +1,7 @@
+node_modules
+.env
+config.json
+.DS_Store
+__pycache__
+shotping_flaksk/__pycache__/*
+alertmanager/alertmanager.yml
